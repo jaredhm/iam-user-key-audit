@@ -1,0 +1,27 @@
+{
+  "name": "iam-user-keys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-iam": "^3.682.0",
+    "@js-joda/core": "^5.6.3",
+    "@js-joda/locale": "^4.14.1",
+    "@js-joda/locale_en-us": "^4.14.0",
+    "@js-joda/timezone": "^2.21.1",
+    "@types/node": "^22.8.7",
+    "assert": "^2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "@inquirer/prompts": "^7.0.1"
+  },
+  "volta": {
+    "node": "20.18.0"
+  }
+}
